@@ -1,24 +1,48 @@
 # Learning
 
+#OOP
+class Hero:
+	
+	def __init__(self, name, hp, defense, hit_chance, items, speed, resistences)
+		self.name = name
+		self.hp = hp
+		self.defense = defense 
+		self.hit_chance = hit_chance
+		self.items = items
+		self.speed = speed
+		self.resistences = resistences
+	
+	def attk(self, opposing_character):
+		print(chance to hit of character)
+		print(defense of opposing character)
+		print(print hit or miss)
+		if attack_hit = True:
+			print(attack dmg of character)
+			print(defene of opposing character)
+			print(total dmg done)
+		else:
+			print(your attack missed)
+		
 
+def hero(name):
+	print(name)
+	print(hp)
+	print(defense)
+	print(to hit chance)
+	print(items)
+	print(speed)
+	print(resistences) 
 
-<!DOCTYPE html>
-<html>
+def monster(name):
+	print(name)
+	print(hp)
+	print(defense)
+	print(to hit chance)
+	print(items)
+	print(speed)
+	print(resistences)
+	
 
-<head>
-<meta charset="utf-8">
-<title>Black Goose Bistro</title>
-</head>
-
-<body>
-Black Goose Bistro
-
-The Restaurant
-The Black Goose Bistro offers casual lunch and dinner fare in a hip atmosphere. The menu changes regularly to highlight the freshest ingredients.
-
-Catering
-You have fun... we'll do the cooking. Black Goose catering can handle events from snacks for bridge club to elegant corporate fundraisers.
-Location and Hours Seekonk, Massachusetts; Monday through Thursday 11am to 9pm, Friday and Saturday, 11am to midnight
-</body>
-
-</html>
+hero()
+monster()
+attk(goblin, hero)
